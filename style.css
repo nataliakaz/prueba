@@ -1,0 +1,73 @@
+/*h1 {
+    color:rgb(27, 167, 39);
+    
+}*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+    background-color: rgb(54, 39, 140); /*#f6f5f7;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contenedor {
+    background-color: white;
+    width: 700px; /* puede ser auto*/
+    height: 350px;
+    position: absolute;
+    /*left: ;*/
+    inset: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+#calculadora {
+    /*background-color: aqua;*/
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detalle {
+    background-color: royalblue;
+    color: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.contenido {
+    /*background-color:red;*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    background-color: #eee;
+    border: none;
+}
+
+button {
+      font-size: 15px; /*cambia tamaño*/
+      font-weight: bold; /*ancho de letra*/
+      padding: 12px 45px; /*pixel del campo de texto dentro, centra el texto del input*/
+      border-radius: 30px; /*redondeado*/
+      background-color: #875c66; /*color del boton*/
+      border: 1px solid #FF416C; /*borde de boton*/
+      color: #FFFFFF; /*color de letra*/
+      text-transform: uppercase; /*mayuscula*/
+      letter-spacing: 1px; /*espacio entre letra*/
+      transition: transform 20ms ease-in; /*trancision del efecto del boton*/
+  }
+  
+button:active {
+	transform: scale(0.95); /*efecto del boton*/
+}
